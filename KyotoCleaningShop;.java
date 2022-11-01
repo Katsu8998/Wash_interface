@@ -5,6 +5,9 @@ public class KyotoCleaningShop implements CleaningService{
 	int price;
 	
 	public Shirt washShirt(Shirt s) {
+		s.price=10;
+		s.ownerName=ownerName;
+		System.out.println(s.ownerName +"は" + s.price + "ドル払った");
 	//ShirtクラスにownserNameフィールドが必要
 		
 		return s;
