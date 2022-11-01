@@ -6,7 +6,5 @@ public class Main {
 	        KyotoCleaningShop V = new KyotoCleaningShop();
 	        V.ownerName ="tanaka";
 	        V.washShirt(s);
-	     
-	 
 	    }
 	} 
